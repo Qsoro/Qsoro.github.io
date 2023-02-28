@@ -1,0 +1,105 @@
+.col
+{
+    float: left;
+    padding: 1% !important;
+    margin: 0%;
+    border: 0%;
+}
+.costados
+{
+    opacity: 0% !important;
+    background-color: none !important;   
+}
+#centro
+{
+    z-index: 1;
+    border-style: solid;
+    margin-top: 1%;
+    display: block;
+    /* background-color: white; */
+}
+
+
+@media only screen and (min-width: 1366px)
+{
+    .col-1{width: 25%;}
+    .col-2{width: 50%;}
+    .col-3{width: 25%;}
+}
+@media only screen and (max-width: 1366px) 
+{
+    .col-1{width: 20%;}
+    .col-2{width: 60%;}
+    .col-3{width: 20%;}
+}
+@media only screen and (max-width: 830px) 
+{
+    .col-1{width: 2%;}
+    .col-2{width: 96%;}
+    .col-3{width: 2%;}
+
+    [class*="boton"]{
+        width: 70px !important; 
+        height: 40px;
+    }
+    [class*="txtBTN"]{
+        display:  none;
+    }
+}
+@media only screen and (max-width: 503px) 
+{
+    [id*="titulo"] 
+    {
+        padding-left: 0% !important;
+        padding: 0px;
+        margin: 0px;
+    }
+    [class*="INFcolumna"] {
+        width: 100%;
+    }
+    [class*="boton"]{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    } 
+    [id*="contIMG"]
+    {
+        float:none;
+        width:100%;
+        padding-left: 0% !important;
+        padding-bottom: 0% !important;
+        padding-top: 0px !important;
+    }
+    [id*="botonera"]
+    {
+        border-top-style: solid;
+        border-top-width: 3px;
+        border-top-color: black;
+        margin-top: 18% !important;
+        z-index: 1 !important;
+        position: relative !important;
+    }
+}
+
+@media only screen and (max-width: 390px) 
+{
+    [id*="botonera"]
+    {
+        border-top-style: solid;
+        border-top-width: 3px;
+        border-top-color: black;
+        margin-top: 30% !important;
+        z-index: 1 !important;
+        position: relative !important;
+    }
+}
+@media only screen and (max-width: 320px) 
+{
+    [id*="botonera"]
+    {
+        border-top-style: solid;
+        border-top-width: 3px;
+        border-top-color: black;
+        margin-top: 40% !important;
+        z-index: 1 !important;
+    }
+}
